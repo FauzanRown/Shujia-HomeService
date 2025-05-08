@@ -1,0 +1,230 @@
+<!-- my-cart.html -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="output.css" rel="stylesheet" />
+        <title>Shujia | Cart</title>
+    </head>
+    <body>
+        <main class="mx-auto min-h-screen w-full max-w-[640px] bg-[#F4F5F7]">
+            <div id="background" class="absolute left-1/2 top-0 w-full max-w-[640px] -translate-x-1/2">
+                <img clas src="./assets/Images/Background/Red Banner.png" alt="" />
+            </div>
+
+            <section id="Navtop" class="fixed left-0 right-0 top-5 z-30">
+                <div class="mx-auto max-w-[640px] px-5">
+                    <div id="containerNav" class="flex items-center justify-between transition-all duration-300">
+                        <a href="./index.html">
+                            <div id="back" class="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-white transition-all duration-300">
+                                <img src="./assets/Images/Icon/Arrow Back.svg" alt="" />
+                            </div>
+                        </a>
+
+                        <h1 id="title" class="font-semibold text-white">My Cart</h1>
+                        <div id="empty"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Homeservices" class="relative mt-[100px]">
+                <div class="mx-auto max-w-[640px] px-5">
+                    <div class="rounded-[20px] border border-shujia-graylight bg-white p-5">
+                        <div class="mb-5 flex items-center justify-between">
+                            <h1 class="font-poppins font-semibold text-black">Home Services</h1>
+                            <div>
+                                <a href="">
+                                    <div class="flex h-[27px] w-[27px] items-center justify-center rounded-full border-2 border-black bg-white">
+                                        <img src="./assets/Images/Icon/Arrow Down.svg" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div id="card" class="flex items-center justify-around gap-3">
+                            <div class="h-[90px] w-[80px] shrink-0 overflow-hidden rounded-3xl bg-yellow-300">
+                                <img src="./assets/Images/Thumbnail/cart 1.png" alt="" />
+                            </div>
+
+                            <div class="">
+                                <h1 class="font-poppins text-[14px] font-semibold">Home Family Theater Best Lights Installation</h1>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/money.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">Rp. 100.000</p>
+                                    </div>
+
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/Clock.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">15 Hours</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="">
+                                <div class="flex h-[32px] w-[32px] shrink-0 items-center justify-center rounded-full bg-shujia-orange transition-all hover:bg-amber-500">
+                                    <img src="./assets/Images/Icon/TrashBag.svg" alt="" />
+                                </div>
+                            </a>
+                        </div>
+
+                        <hr class="my-5 border-shujia-graylight" />
+
+                        <div id="card" class="flex items-center justify-around gap-3">
+                            <div class="h-[90px] w-[80px] shrink-0 overflow-hidden rounded-3xl bg-yellow-300">
+                                <img src="./assets/Images/Thumbnail/cart 1.png" alt="" />
+                            </div>
+
+                            <div class="">
+                                <h1 class="font-poppins text-[14px] font-semibold">Home Family Theater Best Lights Installation</h1>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/money.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">Rp. 100.000</p>
+                                    </div>
+
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/Clock.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">15 Hours</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="">
+                                <div class="flex h-[32px] w-[32px] shrink-0 items-center justify-center rounded-full bg-shujia-orange transition-all hover:bg-amber-500">
+                                    <img src="./assets/Images/Icon/TrashBag.svg" alt="" />
+                                </div>
+                            </a>
+                        </div>
+
+                        <hr class="my-5 border-shujia-graylight" />
+
+                        <div id="card" class="flex items-center justify-around gap-3">
+                            <div class="h-[90px] w-[80px] shrink-0 overflow-hidden rounded-3xl bg-yellow-300">
+                                <img src="./assets/Images/Thumbnail/cart 1.png" alt="" />
+                            </div>
+
+                            <div class="">
+                                <h1 class="font-poppins text-[14px] font-semibold">Home Family Theater Best Lights Installation</h1>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/money.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">Rp. 100.000</p>
+                                    </div>
+
+                                    <div class="flex items-center gap-1">
+                                        <img src="./assets/Images/Icon/Clock.svg" alt="" />
+                                        <p class="font-poppins text-[12px]">15 Hours</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="">
+                                <div class="flex h-[32px] w-[32px] shrink-0 items-center justify-center rounded-full bg-shujia-orange transition-all hover:bg-amber-500">
+                                    <img src="./assets/Images/Icon/TrashBag.svg" alt="" />
+                                </div>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+
+            <section class="BookingDetails">
+                <div class="mx-auto mt-5 max-w-[640px] px-5">
+                    <div class="rounded-[20px] border border-shujia-graylight bg-white p-5">
+                        <div class="mb-5 flex justify-between">
+                            <h1 class="font-poppins text-[16px] font-semibold text-shujia-black">Booking Detail</h1>
+                            <div>
+                                <a href="">
+                                    <div class="flex h-[27px] w-[27px] items-center justify-center rounded-full border-2 border-black bg-white">
+                                        <img src="./assets/Images/Icon/Arrow Down.svg" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <img src="./assets/Images/Icon/Noteservices.svg" alt="" />
+                                <h1 class="font-poppins text-[14px] text-shujia-gray">Sub Total</h1>
+                            </div>
+                            <h1 class="font-poppins text-[14px] font-bold">Rp 180.394.392</h1>
+                        </div>
+
+                        <hr class="my-3 border-shujia-graylight" />
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <img src="./assets/Images/Icon/Noteservices.svg" alt="" />
+                                <h1 class="font-poppins text-[14px] text-shujia-gray">Tax 20 %</h1>
+                            </div>
+                            <h1 class="font-poppins text-[14px] font-bold">Rp 18.000.000</h1>
+                        </div>
+
+                        <hr class="my-3 border-shujia-graylight" />
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <img src="./assets/Images/Icon/Noteservices.svg" alt="" />
+                                <h1 class="font-poppins text-[14px] text-shujia-gray">Insurance</h1>
+                            </div>
+                            <h1 class="font-poppins text-[14px] font-bold">Free For All</h1>
+                        </div>
+
+                        <hr class="my-3 border-shujia-graylight" />
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <img src="./assets/Images/Icon/Noteservices.svg" alt="" />
+                                <h1 class="font-poppins text-[14px] text-shujia-gray">Service Tools</h1>
+                            </div>
+                            <h1 class="font-poppins text-[14px] font-bold">Free For All</h1>
+                        </div>
+
+                        <hr class="my-3 border-shujia-graylight" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="Adverticement">
+                <a href="">
+                    <div class="relative max-w-[640px] px-5">
+                        <div class="mx-auto mt-12 flex h-[100px] max-w-[640px] rounded-[24px] border-2 border-x-shujia-graylight bg-white transition-all duration-300 hover:border-shujia-orange">
+                            <div class="absolute bottom-0 left-12 shrink-0">
+                                <img class="h-[130px] w-[100px]" src="./assets/Images/Background/Adversiting.png" alt="" />
+                            </div>
+                            <div class="absolute right-14 top-4 font-poppins text-[18px] font-bold text-shujia-black">
+                                <h1>
+                                    Special <span class="text-[24px] text-shujia-orange">50% Off</span> <br class="sm:hidden sm:pt-16" />
+                                    New Customers
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <nav id="NavBottom">
+                <div class="mx-auto mb-5 mt-[56px] px-5">
+                    <div class="flex h-[82px] max-w-[640px] items-center justify-between gap-4 rounded-[24px] bg-shujia-black px-6 py-4">
+                        <div>
+                            <h1 class="font-poppins text-[22px] font-extrabold text-white">Rp 18.394.391</h1>
+                            <p class="font-poppins text-white">Grand Total</p>
+                        </div>
+                        <a href="">
+                            <div class="flex h-[52px] w-[111px] items-center justify-center rounded-full bg-shujia-orange">
+                                <h1 class="font-poppins text-[16px] font-bold text-white">Continue</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./js/navlink-cart.js"></script>
+    </body>
+</html>
